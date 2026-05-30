@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointments</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    color:white;
+
+    background:url('images/appointments.jpg') no-repeat center center fixed;
+    background-size:cover;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
+
+    background: linear-gradient(-45deg,
+        rgba(35,37,38,0.6),
+        rgba(65,67,69,0.6),
+        rgba(28,28,60,0.6),
+        rgba(44,62,80,0.6)
+    );
+
+    background-size:400% 400%;
+    animation: moveBG 8s ease infinite;
+}
+
+@keyframes moveBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.page{
+    text-align:center;
+    padding-top:80px;
+}
+
+.card{
+    width:400px;
+    margin:40px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:15px;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.02);}
+    100%{transform:scale(1);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+<h1>📅 Appointments</h1>
+
+<div class="card">
+<p>👨‍⚕️ Doctor: Dr. Sharma</p>
+<p>📅 Date: 30 May</p>
+<p>⏰ Time: 10:30 AM</p>
+</div>
+
+<a href="patient-dashboard.html" style="color:#9b59b6;">⬅ Back</a>
+</div>
+
+</body>
+</html>
