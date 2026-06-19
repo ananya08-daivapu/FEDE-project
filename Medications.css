@@ -1,0 +1,16 @@
+.med-root { display:flex;flex-direction:column;gap:20px; }
+.med-item { display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.05); }
+.med-item:last-child { border-bottom:none; }
+.med-icon { width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0; }
+.med-info { flex:1; }
+.med-name { font-weight:600;font-size:14px; }
+.med-schedule { color:var(--text-muted);font-size:12px;margin-top:2px; }
+.med-actions { display:flex;align-items:center;flex-wrap:wrap;gap:6px; }
+.med-btn { border:none;padding:5px 10px;border-radius:7px;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit;transition:opacity .2s; }
+.med-btn:hover { opacity:.8; }
+.med-btn-green { background:rgba(45,204,143,.15);color:var(--success); }
+.med-btn-red   { background:rgba(255,92,114,.12);color:var(--danger); }
+.med-stats { display:flex;gap:16px;margin-top:20px;padding-top:16px;border-top:1px solid var(--card-border); }
+.med-stat { flex:1;text-align:center; }
+.med-stat-val { font-family:'Space Grotesk',sans-serif;font-size:28px;font-weight:700; }
+.med-stat-label { font-size:11px;color:var(--text-dim);margin-top:4px; }

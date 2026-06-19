@@ -1,0 +1,8 @@
+.vl-root { display:flex;flex-direction:column;gap:20px; }
+.vl-form-grid { display:grid;grid-template-columns:1fr 1fr;gap:12px; }
+.vl-actions { display:flex;gap:10px;margin-top:18px; }
+.vl-empty { text-align:center;padding:40px 0;color:var(--text-muted);line-height:2; }
+.vl-thresholds { display:grid;grid-template-columns:repeat(3,1fr);gap:12px; }
+.vl-threshold-item { background:rgba(255,255,255,.04);border:1px solid var(--card-border);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:6px; }
+.vl-threshold-label { font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.05em; }
+@media(max-width:700px){.vl-thresholds{grid-template-columns:1fr 1fr;}.vl-form-grid{grid-template-columns:1fr;}}

@@ -1,0 +1,8 @@
+.hs-root { display:flex;flex-direction:column;gap:20px; }
+.hs-timeline { display:flex;flex-direction:column;gap:8px; }
+.hs-row { display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-radius:10px; }
+.hs-dot { width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:5px; }
+.hs-body { flex:1; }
+.hs-patient { font-weight:600;font-size:13px;margin-bottom:3px; }
+.hs-event { font-size:12px;color:var(--text-muted); }
+.hs-date { font-size:11px;color:var(--text-dim);white-space:nowrap;flex-shrink:0; }

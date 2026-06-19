@@ -1,0 +1,10 @@
+.dn-root { display:flex;flex-direction:column;gap:20px; }
+.dn-form-grid { display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:0; }
+.dn-notes-list { display:flex;flex-direction:column;gap:14px; }
+.dn-note-item { background:rgba(255,255,255,.04);border:1px solid var(--card-border);border-radius:12px;padding:16px; }
+.dn-note-header { display:flex;align-items:center;justify-content:space-between;margin-bottom:6px; }
+.dn-note-patient { font-weight:600;font-size:14px; }
+.dn-note-date { font-size:11px;color:var(--text-dim); }
+.dn-note-doctor { font-size:12px;color:var(--blue-accent);margin-bottom:8px; }
+.dn-note-text { font-size:13px;color:var(--text-muted);line-height:1.6; }
+@media(max-width:700px){.dn-form-grid{grid-template-columns:1fr;}}

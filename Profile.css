@@ -1,0 +1,27 @@
+.pf-root { display:flex;flex-direction:column;gap:20px; }
+.pf-hero-card { display:flex;align-items:center;gap:20px;flex-wrap:wrap; }
+.pf-avatar { font-size:52px; }
+.pf-hero-info { flex:1; }
+.pf-name { font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;margin-bottom:4px; }
+.pf-role { color:var(--text-muted);font-size:14px;margin-bottom:4px; }
+.pf-license { font-size:12px;color:var(--text-dim); }
+.pf-info-grid { display:flex;flex-direction:column;gap:14px; }
+.pf-info-item { display:flex;align-items:flex-start;gap:12px; }
+.pf-info-icon { font-size:18px;margin-top:2px; }
+.pf-info-label { font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px; }
+.pf-info-val { font-size:14px; }
+.pf-settings { display:flex;flex-direction:column;gap:4px;margin-bottom:20px; }
+.pf-setting-row { display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;background:rgba(255,255,255,.03); }
+.pf-setting-icon { font-size:18px; }
+.pf-setting-info { flex:1; }
+.pf-setting-label { font-size:13px;font-weight:500; }
+.pf-setting-desc { font-size:11px;color:var(--text-dim);margin-top:2px; }
+.pf-toggle { width:36px;height:20px;border-radius:99px;flex-shrink:0; }
+.pf-toggle-on { background:linear-gradient(90deg,var(--green-bright),var(--blue-accent)); }
+.pf-logout-btn { width:100%;background:rgba(255,92,114,.1);border:1px solid rgba(255,92,114,.25);color:var(--danger);padding:10px;border-radius:10px;cursor:pointer;font-size:14px;font-weight:600;font-family:inherit;transition:background .2s; }
+.pf-logout-btn:hover { background:rgba(255,92,114,.2); }
+.pf-stats { display:grid;grid-template-columns:repeat(4,1fr);gap:16px; }
+.pf-stat { text-align:center;background:rgba(255,255,255,.04);border:1px solid var(--card-border);border-radius:12px;padding:20px; }
+.pf-stat-val { font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:700; }
+.pf-stat-label { font-size:12px;color:var(--text-dim);margin-top:4px; }
+@media(max-width:700px){.pf-stats{grid-template-columns:1fr 1fr;}}

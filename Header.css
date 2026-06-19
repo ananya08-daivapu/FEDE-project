@@ -1,0 +1,15 @@
+.app-header { background:rgba(2,13,26,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--card-border);padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:64px;position:sticky;top:0;z-index:100;gap:12px; }
+.hdr-logo { display:flex;align-items:center;gap:10px;flex-shrink:0; }
+.hdr-logo-icon { width:34px;height:34px;background:linear-gradient(135deg,var(--green-bright),var(--blue-accent));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px; }
+.hdr-logo-text { font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700; }
+.hdr-logo-text span { color:var(--green-bright); }
+.hdr-nav { display:flex;gap:2px;overflow-x:auto;flex:1;scrollbar-width:none; }
+.hdr-nav::-webkit-scrollbar { display:none; }
+.hdr-nav-btn { background:none;border:none;color:var(--text-muted);padding:7px 11px;border-radius:8px;cursor:pointer;font-size:12.5px;font-weight:500;transition:all .2s;white-space:nowrap;display:flex;align-items:center;gap:5px; }
+.hdr-nav-btn:hover { background:rgba(45,204,143,.08);color:var(--text-main); }
+.hdr-nav-btn.active { background:rgba(45,204,143,.12);color:var(--green-bright); }
+.hdr-badge { background:var(--danger);color:#fff;font-size:10px;font-weight:700;padding:1px 5px;border-radius:99px; }
+.hdr-right { display:flex;align-items:center;gap:10px;flex-shrink:0; }
+.hdr-live { font-size:12px;color:var(--text-muted);display:flex;align-items:center; }
+.hdr-avatar { width:34px;height:34px;background:linear-gradient(135deg,var(--blue-mid),var(--teal-light));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;cursor:pointer;title:"Logout"; }
+@media(max-width:768px) { .app-header{height:auto;padding:10px 14px;flex-wrap:wrap;}.hdr-nav{order:3;width:100%;padding-bottom:6px;} }

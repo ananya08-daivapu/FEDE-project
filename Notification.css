@@ -1,0 +1,14 @@
+.nt-root { display:flex;flex-direction:column;gap:20px; }
+.nt-item { display:flex;align-items:flex-start;gap:12px;padding:14px;border-radius:10px;border-bottom:1px solid rgba(255,255,255,.04);transition:background .2s; }
+.nt-item:hover { background:rgba(255,255,255,.04); }
+.nt-unread { background:rgba(45,204,143,.04); }
+.nt-dot { width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:5px; }
+.nt-text { flex:1;font-size:13px;color:var(--text-main); }
+.nt-time { font-size:11px;color:var(--text-dim);white-space:nowrap;flex-shrink:0; }
+.nt-prefs { display:flex;flex-direction:column;gap:4px; }
+.nt-pref-row { display:flex;align-items:center;gap:12px;padding:14px;border-radius:10px;background:rgba(255,255,255,.03); }
+.nt-pref-icon { font-size:20px; }
+.nt-pref-info { flex:1; }
+.nt-pref-label { font-size:13px;font-weight:500; }
+.nt-pref-desc { font-size:11px;color:var(--text-dim);margin-top:2px; }
+.nt-toggle { width:36px;height:20px;border-radius:99px;background:linear-gradient(90deg,var(--green-bright),var(--blue-accent));flex-shrink:0; }
